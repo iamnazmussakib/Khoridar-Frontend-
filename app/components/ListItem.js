@@ -8,7 +8,7 @@ import colors from '../config/colors';
 function ListItem({title, desc, image, IconComponent, onPress, renderRightActions}) {
     return (
         <Swipeable renderRightActions={renderRightActions}>
-            <TouchableHighlight underlayColor={'lightgrey'} onPress={onPress}>
+            <TouchableHighlight underlayColor={colors.bgLight} onPress={onPress}>
                 <View style={styles.profileContainer}>
                     {IconComponent}
                     {image && <Image style={styles.profileImg} source={image}/>}

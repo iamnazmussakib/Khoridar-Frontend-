@@ -45,7 +45,26 @@ function MessageScreen(props) {
             ItemSeparatorComponent={Separetor}
             refreshing={refresh}
             onRefresh={() => {
-                
+                setMessage([
+                                {
+                        id:1,
+                        title: 'Nazmus Sakib',
+                        desc: 'How are you?',
+                        image: require("../assets/sakib.png")
+                    },
+                    {
+                        id:2,
+                        title: 'Nazmus Sakib',
+                        desc: 'How are you?',
+                        image: require("../assets/sakib.png")
+                    },
+                    {
+                        id:3,
+                        title: 'Nazmus Sakib',
+                        desc: 'How are you?',
+                        image: require("../assets/sakib.png")
+                    } 
+                ])
             }}
         />
     );

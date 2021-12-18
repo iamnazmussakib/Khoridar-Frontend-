@@ -6,7 +6,7 @@ import ListItemDetails from "../screen/ListItemDetails";
 const Stack = createStackNavigator();
 
 const FeedNavigator = () => (
-  <Stack.Navigator mode="modal" screenOptions={{ headerShown: false }}>
+  <Stack.Navigator screenOptions={{ headerShown: false }}>
     <Stack.Screen name="Listings" component={KhoridarHome} />
     <Stack.Screen name="ListingDetails" component={ListItemDetails} />
   </Stack.Navigator>

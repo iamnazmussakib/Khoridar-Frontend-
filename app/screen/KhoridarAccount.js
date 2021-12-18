@@ -75,7 +75,7 @@ function KhoridarAccount({navigation}) {
 
 const styles = StyleSheet.create({
     container: {
-        backgroundColor: 'lightgrey',
+        backgroundColor: colors.bgLight,
         flex: 1
     },
     subContainer: {
